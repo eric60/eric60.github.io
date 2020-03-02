@@ -6,6 +6,8 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     </head>
     <body>
     <div class="wrapper">
@@ -14,35 +16,37 @@
             <a href="#projects">Projects</a>
             <a href="#links">Links</a>
         </div>
-        <div id="about">
-            <img class="profile-picture" src="self-picture.jpg">
-            <h2>Eric Shi</h2>
-            <h3>CS Student</h3>
-            <p>My name is Eric Shi and I'm a senior CS student at UMass Amherst.</p>
-           
+
+        <div class="about">
+            <div class="jumbotron">
+                <img class="profile-picture" src="self-picture.jpg">
+                <h2>Eric Shi</h2>
+                <h3>CS Student</h3>
+                <p>My name is Eric Shi and I'm a senior CS student at UMass Amherst.</p>
+            </div>
         </div>
+
         <div id="projects">
             <h1>Projects</h1>
-            <div class="container">
-                <h3>Project 1</h3>
-                <p>Networking project focused on distributed design and SOAP</p>
-            </div>
-            <div>
-                <h3>Project 2</h3>
+            <div class="project-panels">
+                <div class="panel panel-info">
+                  <div class="panel-heading">Project 1</div>
+                  <div class="panel-body">Networking project focused on distributed design and SOAP</div>
+                </div>
+              </div>
+            <div class="project-panels">
+                <div class="panel panel-info">
+                    <div class="panel-heading">Project 2</div>
+                    <div class="panel-body">Spring Boot data processing web app project</div>
+                </div>
             </div>
         </div>
+        
         <div id="links">
             <h1>Links</h1>
-            <ul>
-                <li>
-                    <a href="https://github.com/eric60">Github link</a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/ericshi98/">Linkedin Link</a>
-                </li>
-            </ul>   
+            <a href="https://github.com/eric60">Github</a>
+            <a href="https://www.linkedin.com/in/ericshi98/">Linkedin</a>
         </div>
-    </div>
-       
+    </div>    
     </body>
 </html>
