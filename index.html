@@ -10,31 +10,32 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     </head>
     <body>
-    <div class="wrapper">
         <nav class="navbar navbar-default">
             <ul class="nav navbar-nav">
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
         
-        <div id="about">
-            <div class="container-fluid bg-1 text-center">
-                <img src="self-picture.jpg" class="img-rounded" alt="Profile-picture" width="130" height="200"> 
-                <h2>Eric Shi</h2>
-                <h3>CS Student</h3>
-                <p>My name is Eric Shi and I'm a senior CS student at UMass Amherst.</p>
-            </div>
+        <div id="about" class="container-fluid bg-1 text-center">
+            <img src="resources/self-picture.jpg" class="img-rounded" alt="Profile-picture" width="130" height="200"> 
+            <h2>Eric Shi</h2>
+            <h3>CS Student</h3>
+            <p>My name is Eric Shi and I'm a senior CS student at UMass Amherst.</p>
         </div>
 
-        <div id="projects">
+        <div id="projects" class="container-fluid bg-2 text-center">
             <h1>Projects</h1>
             <div class="project-panels">
-                <div class="panel panel-info -flex justify-content-center">
-                  <div class="panel-heading">Project 1</div>
-                  <div class="panel-body">Networking project focused on distributed design and SOAP</div>
+                <div class="panel panel-info">
+                    <div class="panel-heading">Project 1</div>
+                    <div class="panel-body">
+                        <img src="resources/redis-picture.png" class="panel-picture">
+                        <p>Networking project focused on distributed design and SOAP</p>
+                    </div>
                 </div>
+
                 <div class="panel panel-info">
                     <div class="panel-heading">Project 2</div>
                     <div class="panel-body">Spring Boot data processing web app project</div>
@@ -42,11 +43,14 @@
             </div>
         </div>
         
-        <footer id="contact" class="footer">
-            <h2>Contact</h2>
-            <a href="https://github.com/eric60">Github</a>
-            <a href="https://www.linkedin.com/in/ericshi98/">Linkedin</a>        
-        </footer>
-    </div>    
+        <footer id="contact" class="container-fluid bg-3 text-center">
+            <h1>Contact</h1>
+            <a href="https://github.com/eric60" target="_blank">
+                <img src="resources/github-logo.png" class="logo">
+            </a>
+            <a href="https://www.linkedin.com/in/ericshi98/" target="_blank">
+                <img src="resources/LinkedIn-Logo.png" class="logo">
+            </a>        
+        </footer>  
     </body>
 </html>
