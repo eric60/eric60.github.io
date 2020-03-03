@@ -1,23 +1,36 @@
 html, body {
     height: 100%;
-    max-width: 500px;
+    max-width: 600px;
     margin: auto;
     padding: 0px;
+    text-align: center;
+}
+
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+
+#about {
+    max-width: 700px;
 }
 
 ul {
     list-style: none;
 }
 
-.wrapper {
-    text-align: center;
-}
-
 .projects-panels {
     margin-right: 10em;
 }
 .profile-picture {
-    border-radius: 50%;
-    width: 25%;
-    height: 25%;
+    border-radius: 70%;
+    width: 30%;
+    height: 10%;
 }
