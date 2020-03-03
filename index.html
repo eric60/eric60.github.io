@@ -11,7 +11,7 @@
     </head>
     <body>
     <div class="wrapper">
-        <nav class="navbar navbar-inverse">
+        <nav class="navbar navbar-default">
             <ul class="nav navbar-nav">
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
@@ -20,7 +20,7 @@
         </nav>
         
         <div id="about">
-            <div class="jumbotron">
+            <div class="container-fluid bg-1 text-center">
                 <img src="self-picture.jpg" class="img-rounded" alt="Profile-picture" width="130" height="200"> 
                 <h2>Eric Shi</h2>
                 <h3>CS Student</h3>
@@ -31,12 +31,10 @@
         <div id="projects">
             <h1>Projects</h1>
             <div class="project-panels">
-                <div class="panel panel-info">
+                <div class="panel panel-info -flex justify-content-center">
                   <div class="panel-heading">Project 1</div>
                   <div class="panel-body">Networking project focused on distributed design and SOAP</div>
                 </div>
-              </div>
-            <div class="project-panels">
                 <div class="panel panel-info">
                     <div class="panel-heading">Project 2</div>
                     <div class="panel-body">Spring Boot data processing web app project</div>
@@ -44,11 +42,11 @@
             </div>
         </div>
         
-        <div id="contact">
-            <h1>Contact</h1>
+        <footer id="contact" class="footer">
+            <h2>Contact</h2>
             <a href="https://github.com/eric60">Github</a>
-            <a href="https://www.linkedin.com/in/ericshi98/">Linkedin</a>
-        </div>
+            <a href="https://www.linkedin.com/in/ericshi98/">Linkedin</a>        
+        </footer>
     </div>    
     </body>
 </html>
